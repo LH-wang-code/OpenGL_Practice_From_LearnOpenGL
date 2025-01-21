@@ -48,10 +48,26 @@
     <ClCompile Include="LearnTextures.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TexturePractice2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testCon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePractice3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePractice4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
     <None Include="fragmentShaderSource.GLSL" />
+    <None Include="vertexShaderSource_Texture3.GLSL" />
+    <None Include="fragmentShaderSource_Texture3.GLSL" />
+    <None Include="vertexShaderSource_Texture4.GLSL" />
+    <None Include="fragmentShaderSource_Texture4.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
