@@ -138,10 +138,13 @@
     <ClCompile Include="GLSLPractice3.cpp" />
     <ClCompile Include="LearnGLSL.cpp" />
     <ClCompile Include="LearnTextures.cpp" />
+    <ClCompile Include="LearnTrans.cpp" />
     <ClCompile Include="testCon.cpp" />
     <ClCompile Include="TexturePractice2.cpp" />
     <ClCompile Include="TexturePractice4.cpp" />
     <ClCompile Include="TexturePractice3.cpp" />
+    <ClCompile Include="TransformPractice1.cpp" />
+    <ClCompile Include="TransformPractice2.cpp" />
     <ClCompile Include="UseShader.cpp" />
     <ClCompile Include="shader.h" />
     <ClCompile Include="TrianglePractice1.cpp" />
@@ -152,9 +155,11 @@
     <None Include="fragmentShaderSource.GLSL" />
     <None Include="fragmentShaderSource_Texture3.GLSL" />
     <None Include="fragmentShaderSource_Texture4.GLSL" />
+    <None Include="fragmentShaderSource_Transform1.GLSL" />
     <None Include="vertexShaderSource.GLSL" />
     <None Include="vertexShaderSource_Texture3.GLSL" />
     <None Include="vertexShaderSource_Texture4.GLSL" />
+    <None Include="vertexShaderSource_Transform1.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />

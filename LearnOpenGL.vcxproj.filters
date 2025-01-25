@@ -60,6 +60,15 @@
     <ClCompile Include="TexturePractice4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LearnTrans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformPractice1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformPractice2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -68,6 +77,8 @@
     <None Include="fragmentShaderSource_Texture3.GLSL" />
     <None Include="vertexShaderSource_Texture4.GLSL" />
     <None Include="fragmentShaderSource_Texture4.GLSL" />
+    <None Include="vertexShaderSource_Transform1.GLSL" />
+    <None Include="fragmentShaderSource_Transform1.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
