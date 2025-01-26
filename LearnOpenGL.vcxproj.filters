@@ -69,6 +69,12 @@
     <ClCompile Include="TransformPractice2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LearnCoordinate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinatePractice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -79,6 +85,8 @@
     <None Include="fragmentShaderSource_Texture4.GLSL" />
     <None Include="vertexShaderSource_Transform1.GLSL" />
     <None Include="fragmentShaderSource_Transform1.GLSL" />
+    <None Include="vertexShaderSource_Coordinate1.GLSL" />
+    <None Include="fragmentShaderSource_Coordinate1.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
