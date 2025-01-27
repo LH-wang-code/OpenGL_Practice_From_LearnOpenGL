@@ -8,6 +8,28 @@
 //#include <glm/gtc/type_ptr.hpp>
 //#include "shader.h"
 //
+//
+//int WIDTH = 800;
+//int HEIGHT = 600;
+//
+//
+//
+//float yaw = -90.0f;
+//float pitch = 0.0f;
+//float lastX = 800.0f / 2.0;
+//float lastY = 600.0f / 2.0;
+//float fov = 45.0f;
+//
+//
+//
+//bool firstMouse = true;
+//
+//
+//glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+//glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
+//glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
+//float deltaTime = 0.0f;
+//float lastFrame = 0.0f;
 //void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 //{
 //	glViewport(0, 0, width, height);
@@ -15,16 +37,75 @@
 //
 //void processInput(GLFWwindow* window)
 //{
-//
+//	
 //	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 //	{
 //		glfwSetWindowShouldClose(window, GL_TRUE);
 //
 //	}
+//	float cameraSpeed = static_cast<float>(2.5 * deltaTime);
+//	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+//	{
+//		cameraPos += cameraSpeed * cameraFront;
+//	}
+//	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+//	{
+//		cameraPos -= cameraSpeed * cameraFront;
+//	}
+//	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+//	{
+//		cameraPos -= glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed;
+//	}
+//	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+//	{
+//		cameraPos += glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed;
+//	}
+//
 //}
 //
-//int WIDTH = 800;
-//int HEIGHT = 600;
+//void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
+//{
+//	float xpos = static_cast<float>(xposIn);
+//	float ypos = static_cast<float>(yposIn);
+//	if (firstMouse)
+//	{
+//		lastX = xpos;
+//		lastY = ypos;
+//		firstMouse = false;
+//
+//	}
+//
+//	float xoffset = xpos - lastX;
+//	float yoffset = lastY - ypos;
+//	lastX = xpos;
+//	lastY = ypos;
+//	float sensitivity = 0.1f;
+//	xoffset *= sensitivity;
+//	yoffset *= sensitivity;
+//	yaw += xoffset;
+//	pitch += yoffset;
+//	if (pitch > 89.0f)
+//		pitch = 89.0f;
+//	if (pitch < -89.0f)
+//		pitch = -89.0f;
+//	glm::vec3 front;
+//	front.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
+//	front.y = sin(glm::radians(pitch));
+//	front.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+//	cameraFront = glm::normalize(front);
+//
+//
+//}
+//void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
+//{
+//	fov -= (float)yoffset;
+//	if (fov < 1.0f)
+//		fov = 1.0f;
+//	if (fov > 45.0f)
+//		fov = 45.0f;
+//
+//}
+//
 //int main()
 //{
 //	glfwInit();
@@ -44,8 +125,8 @@
 //	}
 //	glfwMakeContextCurrent(window);
 //	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-//
-//
+//	glfwSetCursorPosCallback(window, mouse_callback);
+//	glfwSetScrollCallback(window, scroll_callback);
 //	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
 //	{
 //		std::cout << "ERROR:Failed to initilize GLAD" << std::endl;
@@ -169,7 +250,7 @@
 //		std::cout << "ERROR::Falied to load texture" << std::endl;
 //	}
 //	stbi_image_free(data);
-//	Shader ourShader("E:/vstudioproject/LearnOpenGL/LearnOpenGL/vertexShaderSource_Coordinate1.GLSL", "E:/vstudioproject/LearnOpenGL/LearnOpenGL/fragmentshaderSource_Coordinate1.GLSL");
+//	Shader ourShader("E:/vstudioproject/LearnOpenGL/LearnOpenGL/vertexShaderSource_Camera1.GLSL", "E:/vstudioproject/LearnOpenGL/LearnOpenGL/fragmentShaderSource_Camera1.GLSL");
 //	ourShader.use();
 //	ourShader.setInt("texture1", 0);
 //	ourShader.setInt("texture2", 1);
@@ -178,6 +259,11 @@
 //
 //	while (!glfwWindowShouldClose(window))
 //	{
+//		float currentFrame = static_cast<float>(glfwGetTime());
+//		deltaTime = currentFrame - lastFrame;
+//		lastFrame = currentFrame;
+//
+//
 //		processInput(window);
 //		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 //		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -188,10 +274,11 @@
 //
 //
 //		ourShader.use();
-//		glm::mat4 view = glm::mat4(1.0f);
+//		glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
+//
 //		glm::mat4 projection = glm::mat4(1.0f);
-//		view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
-//		projection = glm::perspective(glm::radians(45.0f), (float)WIDTH / (float)HEIGHT, 0.1f, 100.0f);
+//		//view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
+//		projection = glm::perspective(glm::radians(fov), (float)WIDTH / (float)HEIGHT, 0.1f, 100.0f);
 //
 //		ourShader.setMat4("projection", projection);
 //		ourShader.setMat4("view", view);
@@ -201,10 +288,10 @@
 //			glm::mat4 model = glm::mat4(1.0f);
 //			model = glm::translate(model, cubePositions[i]);
 //			float angle = 20.0f * i;
-//			if(i%3==0)
+//			if (i % 3 == 0)
 //				model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(1.0f, 0.3f, 0.5f));
 //			else
-//				model = glm::rotate(model,glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
+//				model = glm::rotate(model, glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
 //
 //			ourShader.setMat4("model", model);
 //			glDrawArrays(GL_TRIANGLES, 0, 36);

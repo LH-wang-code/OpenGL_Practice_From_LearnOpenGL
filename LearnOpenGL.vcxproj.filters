@@ -75,6 +75,12 @@
     <ClCompile Include="CoordinatePractice.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LearnCamera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCamera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -87,12 +93,17 @@
     <None Include="fragmentShaderSource_Transform1.GLSL" />
     <None Include="vertexShaderSource_Coordinate1.GLSL" />
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
+    <None Include="fragmentShaderSource_Camera1.GLSL" />
+    <None Include="vertexShaderSource_Camera1.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

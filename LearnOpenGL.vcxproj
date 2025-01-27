@@ -137,6 +137,7 @@
     <ClCompile Include="GLSLPractice1.cpp" />
     <ClCompile Include="GLSLPractice2.cpp" />
     <ClCompile Include="GLSLPractice3.cpp" />
+    <ClCompile Include="LearnCamera.cpp" />
     <ClCompile Include="LearnCoordinate.cpp" />
     <ClCompile Include="LearnGLSL.cpp" />
     <ClCompile Include="LearnTextures.cpp" />
@@ -147,6 +148,7 @@
     <ClCompile Include="TexturePractice3.cpp" />
     <ClCompile Include="TransformPractice1.cpp" />
     <ClCompile Include="TransformPractice2.cpp" />
+    <ClCompile Include="UseCamera.cpp" />
     <ClCompile Include="UseShader.cpp" />
     <ClCompile Include="shader.h" />
     <ClCompile Include="TrianglePractice1.cpp" />
@@ -155,17 +157,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="fragmentShaderSource.GLSL" />
+    <None Include="fragmentShaderSource_Camera1.GLSL" />
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
     <None Include="fragmentShaderSource_Texture3.GLSL" />
     <None Include="fragmentShaderSource_Texture4.GLSL" />
     <None Include="fragmentShaderSource_Transform1.GLSL" />
     <None Include="vertexShaderSource.GLSL" />
+    <None Include="vertexShaderSource_Camera1.GLSL" />
     <None Include="vertexShaderSource_Coordinate1.GLSL" />
     <None Include="vertexShaderSource_Texture3.GLSL" />
     <None Include="vertexShaderSource_Texture4.GLSL" />
     <None Include="vertexShaderSource_Transform1.GLSL" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
