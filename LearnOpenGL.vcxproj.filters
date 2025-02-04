@@ -81,6 +81,9 @@
     <ClCompile Include="UseCamera.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LearnColor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -95,6 +98,10 @@
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
     <None Include="fragmentShaderSource_Camera1.GLSL" />
     <None Include="vertexShaderSource_Camera1.GLSL" />
+    <None Include="vertexShaderSource_color1.GLSL" />
+    <None Include="fragmentShaderSource_color1.GLSL" />
+    <None Include="vertexShaderSource_Light1.GLSL" />
+    <None Include="fragmentShaderSource_Light1.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">

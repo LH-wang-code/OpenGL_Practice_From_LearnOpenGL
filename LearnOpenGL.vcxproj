@@ -133,6 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\OpenGL\glad\src\glad.c" />
+    <ClCompile Include="LearnColor.cpp" />
     <ClCompile Include="CoordinatePractice.cpp" />
     <ClCompile Include="GLSLPractice1.cpp" />
     <ClCompile Include="GLSLPractice2.cpp" />
@@ -158,13 +159,17 @@
   <ItemGroup>
     <None Include="fragmentShaderSource.GLSL" />
     <None Include="fragmentShaderSource_Camera1.GLSL" />
+    <None Include="fragmentShaderSource_color1.GLSL" />
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
+    <None Include="fragmentShaderSource_Light1.GLSL" />
     <None Include="fragmentShaderSource_Texture3.GLSL" />
     <None Include="fragmentShaderSource_Texture4.GLSL" />
     <None Include="fragmentShaderSource_Transform1.GLSL" />
     <None Include="vertexShaderSource.GLSL" />
     <None Include="vertexShaderSource_Camera1.GLSL" />
+    <None Include="vertexShaderSource_color1.GLSL" />
     <None Include="vertexShaderSource_Coordinate1.GLSL" />
+    <None Include="vertexShaderSource_Light1.GLSL" />
     <None Include="vertexShaderSource_Texture3.GLSL" />
     <None Include="vertexShaderSource_Texture4.GLSL" />
     <None Include="vertexShaderSource_Transform1.GLSL" />
