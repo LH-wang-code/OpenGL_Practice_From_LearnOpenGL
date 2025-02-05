@@ -84,6 +84,9 @@
     <ClCompile Include="LearnColor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LearnReflect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -102,6 +105,10 @@
     <None Include="fragmentShaderSource_color1.GLSL" />
     <None Include="vertexShaderSource_Light1.GLSL" />
     <None Include="fragmentShaderSource_Light1.GLSL" />
+    <None Include="vertexShaderSource_Reflect1.GLSL" />
+    <None Include="fragmentShaderSource_Reflect1.GLSL" />
+    <None Include="vertexShaderSource_color2.GLSL" />
+    <None Include="fragmentShaderSource_color2.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
