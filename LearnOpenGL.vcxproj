@@ -141,6 +141,7 @@
     <ClCompile Include="LearnCamera.cpp" />
     <ClCompile Include="LearnCoordinate.cpp" />
     <ClCompile Include="LearnGLSL.cpp" />
+    <ClCompile Include="LearnMaterials.cpp" />
     <ClCompile Include="LearnReflect.cpp" />
     <ClCompile Include="LearnTextures.cpp" />
     <ClCompile Include="LearnTrans.cpp" />
@@ -164,6 +165,7 @@
     <None Include="fragmentShaderSource_color2.GLSL" />
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
     <None Include="fragmentShaderSource_Light1.GLSL" />
+    <None Include="fragmentShaderSource_materials.GLSL" />
     <None Include="fragmentShaderSource_Reflect1.GLSL" />
     <None Include="fragmentShaderSource_Texture3.GLSL" />
     <None Include="fragmentShaderSource_Texture4.GLSL" />
@@ -174,6 +176,7 @@
     <None Include="vertexShaderSource_color2.GLSL" />
     <None Include="vertexShaderSource_Coordinate1.GLSL" />
     <None Include="vertexShaderSource_Light1.GLSL" />
+    <None Include="vertexShaderSource_materials.GLSL" />
     <None Include="vertexShaderSource_Reflect1.GLSL" />
     <None Include="vertexShaderSource_Texture3.GLSL" />
     <None Include="vertexShaderSource_Texture4.GLSL" />
