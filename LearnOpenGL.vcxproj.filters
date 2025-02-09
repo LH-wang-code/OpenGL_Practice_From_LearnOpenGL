@@ -90,6 +90,12 @@
     <ClCompile Include="LearnMaterials.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LearnSunshinepicture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SPtest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -114,6 +120,8 @@
     <None Include="fragmentShaderSource_color2.GLSL" />
     <None Include="vertexShaderSource_materials.GLSL" />
     <None Include="fragmentShaderSource_materials.GLSL" />
+    <None Include="vertexShaderSource_sunshine1.GLSL" />
+    <None Include="fragmentShaderSource_sunshine1.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">

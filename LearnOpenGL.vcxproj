@@ -143,8 +143,10 @@
     <ClCompile Include="LearnGLSL.cpp" />
     <ClCompile Include="LearnMaterials.cpp" />
     <ClCompile Include="LearnReflect.cpp" />
+    <ClCompile Include="LearnSunshinepicture.cpp" />
     <ClCompile Include="LearnTextures.cpp" />
     <ClCompile Include="LearnTrans.cpp" />
+    <ClCompile Include="SPtest.cpp" />
     <ClCompile Include="testCon.cpp" />
     <ClCompile Include="TexturePractice2.cpp" />
     <ClCompile Include="TexturePractice4.cpp" />
@@ -167,6 +169,7 @@
     <None Include="fragmentShaderSource_Light1.GLSL" />
     <None Include="fragmentShaderSource_materials.GLSL" />
     <None Include="fragmentShaderSource_Reflect1.GLSL" />
+    <None Include="fragmentShaderSource_sunshine1.GLSL" />
     <None Include="fragmentShaderSource_Texture3.GLSL" />
     <None Include="fragmentShaderSource_Texture4.GLSL" />
     <None Include="fragmentShaderSource_Transform1.GLSL" />
@@ -178,6 +181,7 @@
     <None Include="vertexShaderSource_Light1.GLSL" />
     <None Include="vertexShaderSource_materials.GLSL" />
     <None Include="vertexShaderSource_Reflect1.GLSL" />
+    <None Include="vertexShaderSource_sunshine1.GLSL" />
     <None Include="vertexShaderSource_Texture3.GLSL" />
     <None Include="vertexShaderSource_Texture4.GLSL" />
     <None Include="vertexShaderSource_Transform1.GLSL" />
