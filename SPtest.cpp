@@ -1,16 +1,13 @@
 //#define STB_IMAGE_IMPLEMENTATION
-//#include <glad/glad.h>
-//#include <GLFW/glfw3.h>
+//#include<iostream>
+//#include<glad/glad.h>
+//#include<GLFW/glfw3.h>
 //#include "stb_image.h"
-//
 //#include <glm/glm.hpp>
 //#include <glm/gtc/matrix_transform.hpp>
 //#include <glm/gtc/type_ptr.hpp>
-//
 //#include "shader.h"
 //#include "camera.h"
-//
-//#include <iostream>
 //
 //void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 //void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -79,8 +76,9 @@
 //
 //    // build and compile our shader zprogram
 //    // ------------------------------------
-//    Shader lightingShader("E:/vstudioproject/LearnOpenGL/LearnOpenGL/vertexShaderSource_sunshine1.GLSL", "E:/vstudioproject/LearnOpenGL/LearnOpenGL/fragmentShaderSource_sunshine1.GLSL");
-//    Shader lightCubeShader("E:/vstudioproject/LearnOpenGL/LearnOpenGL/vertexShaderSource_color2.GLSL", "E:/vstudioproject/LearnOpenGL/LearnOpenGL/fragmentShaderSource_color2.GLSL");
+//	Shader lightingShader("E:/vstudioproject/LearnOpenGL/LearnOpenGL/vertexShaderSource_sunshine1.GLSL", "E:/vstudioproject/LearnOpenGL/LearnOpenGL/fragmentShaderSource_sunshine1.GLSL");
+//	Shader lightCubeShader("E:/vstudioproject/LearnOpenGL/LearnOpenGL/vertexShaderSource_color2.GLSL", "E:/vstudioproject/LearnOpenGL/LearnOpenGL/fragmentShaderSource_color2.GLSL");
+//
 //
 //    // set up vertex data (and buffer(s)) and configure vertex attributes
 //    // ------------------------------------------------------------------
@@ -156,12 +154,14 @@
 //
 //    // load textures (we now use a utility function to keep the code more organized)
 //    // -----------------------------------------------------------------------------
-//    unsigned int diffuseMap = loadTexture("F:/OpenGLImage/iroccontainer.png");
+//	unsigned int diffuseMap=loadTexture("F:/OpenGLImage/iroccontainer.png");
+//	unsigned int specularMap = loadTexture("F:/OpenGLImage/container2_specular.png");
 //
 //    // shader configuration
 //    // --------------------
 //    lightingShader.use();
 //    lightingShader.setInt("material.diffuse", 0);
+//    lightingShader.setInt("material.specular", 1);
 //
 //
 //    // render loop
@@ -194,7 +194,6 @@
 //        lightingShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
 //
 //        // material properties
-//        lightingShader.setVec3("material.specular", 0.5f, 0.5f, 0.5f);
 //        lightingShader.setFloat("material.shininess", 64.0f);
 //
 //        // view/projection transformations
@@ -210,6 +209,9 @@
 //        // bind diffuse map
 //        glActiveTexture(GL_TEXTURE0);
 //        glBindTexture(GL_TEXTURE_2D, diffuseMap);
+//        // bind specular map
+//        glActiveTexture(GL_TEXTURE1);
+//        glBindTexture(GL_TEXTURE_2D, specularMap);
 //
 //        // render the cube
 //        glBindVertexArray(cubeVAO);
@@ -272,7 +274,6 @@
 //    // height will be significantly larger than specified on retina displays.
 //    glViewport(0, 0, width, height);
 //}
-//
 //
 //// glfw: whenever the mouse moves, this callback is called
 //// -------------------------------------------------------

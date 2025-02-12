@@ -99,6 +99,12 @@
     <ClCompile Include="LearnLightCast.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LearnMutipleLights.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testmultiplelight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -127,6 +133,8 @@
     <None Include="fragmentShaderSource_sunshine1.GLSL" />
     <None Include="vertexShaderSource_lightcast.GLSL" />
     <None Include="fragmentShaderSource_lightcast.GLSL" />
+    <None Include="fragmentShaderSource_MutipleLights.GLSL" />
+    <None Include="vertexShaderSource_MultipleLights.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">

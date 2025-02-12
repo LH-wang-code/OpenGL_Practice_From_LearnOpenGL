@@ -200,7 +200,7 @@
 //	glEnableVertexAttribArray(0);
 //
 //	unsigned int textureID=loadTexture("F:/OpenGLImage/iroccontainer.png");
-//	unsigned int textureIDs = loadTexture("F:/OpenGLImage/iroccontainer.png");
+//	unsigned int textureIDs = loadTexture("F:/OpenGLImage/container2_specular.png");
 //
 //
 //	Shader lightingShader("E:/vstudioproject/LearnOpenGL/LearnOpenGL/vertexShaderSource_sunshine1.GLSL", "E:/vstudioproject/LearnOpenGL/LearnOpenGL/fragmentShaderSource_sunshine1.GLSL");
