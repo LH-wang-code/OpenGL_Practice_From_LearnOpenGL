@@ -133,8 +133,9 @@
     <None Include="fragmentShaderSource_sunshine1.GLSL" />
     <None Include="vertexShaderSource_lightcast.GLSL" />
     <None Include="fragmentShaderSource_lightcast.GLSL" />
-    <None Include="fragmentShaderSource_MutipleLights.GLSL" />
     <None Include="vertexShaderSource_MultipleLights.GLSL" />
+    <None Include="fragmentShaderSource_MultipleLights.GLSL" />
+    <None Include="fragmentShaderSource_lightcast1.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">

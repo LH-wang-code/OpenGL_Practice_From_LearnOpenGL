@@ -171,8 +171,9 @@
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
     <None Include="fragmentShaderSource_Light1.GLSL" />
     <None Include="fragmentShaderSource_lightcast.GLSL" />
+    <None Include="fragmentShaderSource_lightcast1.GLSL" />
     <None Include="fragmentShaderSource_materials.GLSL" />
-    <None Include="fragmentShaderSource_MutipleLights.GLSL" />
+    <None Include="fragmentShaderSource_MultipleLights.GLSL" />
     <None Include="fragmentShaderSource_Reflect1.GLSL" />
     <None Include="fragmentShaderSource_sunshine1.GLSL" />
     <None Include="fragmentShaderSource_Texture3.GLSL" />
