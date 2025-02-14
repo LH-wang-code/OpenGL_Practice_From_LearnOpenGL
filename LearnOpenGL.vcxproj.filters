@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\LightCaster">
+      <UniqueIdentifier>{27baba21-1e34-46d5-a9be-395d30f27bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LightCaster\DirectionLight">
+      <UniqueIdentifier>{a7d0f25c-446f-4bac-a4cc-ab2213a4bb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LightCaster\PointLight">
+      <UniqueIdentifier>{22f9b2f4-04ad-47f2-9ff0-02513f71a9f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -105,6 +114,12 @@
     <ClCompile Include="testmultiplelight.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="directionlight.cpp">
+      <Filter>源文件\LightCaster\DirectionLight</Filter>
+    </ClCompile>
+    <ClCompile Include="pointlight.cpp">
+      <Filter>源文件\LightCaster\PointLight</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -136,6 +151,30 @@
     <None Include="vertexShaderSource_MultipleLights.GLSL" />
     <None Include="fragmentShaderSource_MultipleLights.GLSL" />
     <None Include="fragmentShaderSource_lightcast1.GLSL" />
+    <None Include="vertexShaderSource_direction.GLSL">
+      <Filter>源文件\LightCaster\DirectionLight</Filter>
+    </None>
+    <None Include="fragmentShaderSource_direction.GLSL">
+      <Filter>源文件\LightCaster\DirectionLight</Filter>
+    </None>
+    <None Include="vertexShaderSource_shine.GLSL">
+      <Filter>源文件\LightCaster\DirectionLight</Filter>
+    </None>
+    <None Include="fragmentShaderSource_shine.GLSL">
+      <Filter>源文件\LightCaster\DirectionLight</Filter>
+    </None>
+    <None Include="vertexShaderSource_pointLight.GLSL">
+      <Filter>源文件\LightCaster\PointLight</Filter>
+    </None>
+    <None Include="fragmentShaderSource_pointLight.GLSL">
+      <Filter>源文件\LightCaster\PointLight</Filter>
+    </None>
+    <None Include="vertexShaderSource_pointlightshine.GLSL">
+      <Filter>源文件\LightCaster\PointLight</Filter>
+    </None>
+    <None Include="fragmentShaderSource_pointlightshine.GLSL">
+      <Filter>源文件\LightCaster\PointLight</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">

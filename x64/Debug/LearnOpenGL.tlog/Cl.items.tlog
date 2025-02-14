@@ -1,4 +1,5 @@
 E:\OpenGL\glad\src\glad.c;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\glad.obj
+E:\vstudioproject\LearnOpenGL\LearnOpenGL\directionlight.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\directionlight.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnColor.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnColor.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\CoordinatePractice.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\CoordinatePractice.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\GLSLPractice1.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\GLSLPractice1.obj
@@ -14,6 +15,7 @@ E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnReflect.cpp;E:\vstudioproject\Lea
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnSunshinepicture.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnSunshinepicture.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnTextures.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnTextures.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnTrans.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnTrans.obj
+E:\vstudioproject\LearnOpenGL\LearnOpenGL\pointlight.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\pointlight.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\SPtest.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\SPtest.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\testCon.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\testCon.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\testmultiplelight.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\testmultiplelight.obj

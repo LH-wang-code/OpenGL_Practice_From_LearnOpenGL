@@ -133,6 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\OpenGL\glad\src\glad.c" />
+    <ClCompile Include="directionlight.cpp" />
     <ClCompile Include="LearnColor.cpp" />
     <ClCompile Include="CoordinatePractice.cpp" />
     <ClCompile Include="GLSLPractice1.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="LearnSunshinepicture.cpp" />
     <ClCompile Include="LearnTextures.cpp" />
     <ClCompile Include="LearnTrans.cpp" />
+    <ClCompile Include="pointlight.cpp" />
     <ClCompile Include="SPtest.cpp" />
     <ClCompile Include="testCon.cpp" />
     <ClCompile Include="testmultiplelight.cpp" />
@@ -169,12 +171,16 @@
     <None Include="fragmentShaderSource_color1.GLSL" />
     <None Include="fragmentShaderSource_color2.GLSL" />
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
+    <None Include="fragmentShaderSource_direction.GLSL" />
     <None Include="fragmentShaderSource_Light1.GLSL" />
     <None Include="fragmentShaderSource_lightcast.GLSL" />
     <None Include="fragmentShaderSource_lightcast1.GLSL" />
     <None Include="fragmentShaderSource_materials.GLSL" />
     <None Include="fragmentShaderSource_MultipleLights.GLSL" />
+    <None Include="fragmentShaderSource_pointLight.GLSL" />
+    <None Include="fragmentShaderSource_pointlightshine.GLSL" />
     <None Include="fragmentShaderSource_Reflect1.GLSL" />
+    <None Include="fragmentShaderSource_shine.GLSL" />
     <None Include="fragmentShaderSource_sunshine1.GLSL" />
     <None Include="fragmentShaderSource_Texture3.GLSL" />
     <None Include="fragmentShaderSource_Texture4.GLSL" />
@@ -184,11 +190,15 @@
     <None Include="vertexShaderSource_color1.GLSL" />
     <None Include="vertexShaderSource_color2.GLSL" />
     <None Include="vertexShaderSource_Coordinate1.GLSL" />
+    <None Include="vertexShaderSource_direction.GLSL" />
     <None Include="vertexShaderSource_Light1.GLSL" />
     <None Include="vertexShaderSource_lightcast.GLSL" />
     <None Include="vertexShaderSource_materials.GLSL" />
     <None Include="vertexShaderSource_MultipleLights.GLSL" />
+    <None Include="vertexShaderSource_pointLight.GLSL" />
+    <None Include="vertexShaderSource_pointlightshine.GLSL" />
     <None Include="vertexShaderSource_Reflect1.GLSL" />
+    <None Include="vertexShaderSource_shine.GLSL" />
     <None Include="vertexShaderSource_sunshine1.GLSL" />
     <None Include="vertexShaderSource_Texture3.GLSL" />
     <None Include="vertexShaderSource_Texture4.GLSL" />
