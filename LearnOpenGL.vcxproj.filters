@@ -120,6 +120,9 @@
     <ClCompile Include="pointlight.cpp">
       <Filter>源文件\LightCaster\PointLight</Filter>
     </ClCompile>
+    <ClCompile Include="LearnAssimp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -175,6 +178,8 @@
     <None Include="fragmentShaderSource_pointlightshine.GLSL">
       <Filter>源文件\LightCaster\PointLight</Filter>
     </None>
+    <None Include="vertexShaderSource_model.GLSL" />
+    <None Include="fragmentShaderSource_model.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -184,6 +189,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
