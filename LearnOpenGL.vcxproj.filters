@@ -22,6 +22,9 @@
     <Filter Include="源文件\LightCaster\PointLight">
       <UniqueIdentifier>{22f9b2f4-04ad-47f2-9ff0-02513f71a9f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\review">
+      <UniqueIdentifier>{f60b4893-93e3-44ea-8efc-b2b2d856cf9e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -123,6 +126,9 @@
     <ClCompile Include="LearnAssimp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="reviewlight.cpp">
+      <Filter>源文件\review</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -180,6 +186,20 @@
     </None>
     <None Include="vertexShaderSource_model.GLSL" />
     <None Include="fragmentShaderSource_model.GLSL" />
+    <None Include="vertexShaderSource_review.GLSL">
+      <Filter>源文件\review</Filter>
+    </None>
+    <None Include="fragmentShaderSource_review.GLSL">
+      <Filter>源文件\review</Filter>
+    </None>
+    <None Include="vertexShaderSource_reviewlight.GLSL">
+      <Filter>源文件\review</Filter>
+    </None>
+    <None Include="fragmentShaderSource_reviewlight.GLSL">
+      <Filter>源文件\review</Filter>
+    </None>
+    <None Include="vertexShaderSource_AssimpLight.GLSL" />
+    <None Include="fragmentShaderSource_AssimpLight.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
