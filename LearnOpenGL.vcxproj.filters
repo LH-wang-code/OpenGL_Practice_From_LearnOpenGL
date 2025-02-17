@@ -25,6 +25,9 @@
     <Filter Include="源文件\review">
       <UniqueIdentifier>{f60b4893-93e3-44ea-8efc-b2b2d856cf9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\DepthTesting">
+      <UniqueIdentifier>{b8c96e61-7867-4ac7-b89a-4cd06e0e69e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -129,6 +132,9 @@
     <ClCompile Include="reviewlight.cpp">
       <Filter>源文件\review</Filter>
     </ClCompile>
+    <ClCompile Include="LearnDepthTesting.cpp">
+      <Filter>源文件\DepthTesting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -200,6 +206,18 @@
     </None>
     <None Include="vertexShaderSource_AssimpLight.GLSL" />
     <None Include="fragmentShaderSource_AssimpLight.GLSL" />
+    <None Include="vertexShaderSource_depthtesting.GLSL">
+      <Filter>源文件\DepthTesting</Filter>
+    </None>
+    <None Include="fragmentShaderSource_depthtesting.GLSL">
+      <Filter>源文件\DepthTesting</Filter>
+    </None>
+    <None Include="vertexShaderSource_singalColor.GLSL">
+      <Filter>源文件\DepthTesting</Filter>
+    </None>
+    <None Include="fragmentShaderSource_singalColor.GLSL">
+      <Filter>源文件\DepthTesting</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
