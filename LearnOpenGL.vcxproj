@@ -133,6 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\OpenGL\glad\src\glad.c" />
+    <ClCompile Include="blending.cpp" />
     <ClCompile Include="directionlight.cpp" />
     <ClCompile Include="LearnAssimp.cpp" />
     <ClCompile Include="LearnColor.cpp" />

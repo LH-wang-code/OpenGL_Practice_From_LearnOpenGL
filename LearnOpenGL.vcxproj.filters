@@ -28,6 +28,9 @@
     <Filter Include="源文件\DepthTesting">
       <UniqueIdentifier>{b8c96e61-7867-4ac7-b89a-4cd06e0e69e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\blending">
+      <UniqueIdentifier>{b910374f-8d39-4fce-b075-457b14a0b808}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -134,6 +137,9 @@
     </ClCompile>
     <ClCompile Include="LearnDepthTesting.cpp">
       <Filter>源文件\DepthTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="blending.cpp">
+      <Filter>源文件\blending</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
