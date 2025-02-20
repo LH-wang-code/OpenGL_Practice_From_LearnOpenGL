@@ -172,6 +172,7 @@
   <ItemGroup>
     <None Include="fragmentShaderSource.GLSL" />
     <None Include="fragmentShaderSource_AssimpLight.GLSL" />
+    <None Include="fragmentShaderSource_blending.GLSL" />
     <None Include="fragmentShaderSource_Camera1.GLSL" />
     <None Include="fragmentShaderSource_color1.GLSL" />
     <None Include="fragmentShaderSource_color2.GLSL" />
@@ -197,6 +198,7 @@
     <None Include="fragmentShaderSource_Transform1.GLSL" />
     <None Include="vertexShaderSource.GLSL" />
     <None Include="vertexShaderSource_AssimpLight.GLSL" />
+    <None Include="vertexShaderSource_blending.GLSL" />
     <None Include="vertexShaderSource_Camera1.GLSL" />
     <None Include="vertexShaderSource_color1.GLSL" />
     <None Include="vertexShaderSource_color2.GLSL" />

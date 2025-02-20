@@ -224,6 +224,12 @@
     <None Include="fragmentShaderSource_singalColor.GLSL">
       <Filter>源文件\DepthTesting</Filter>
     </None>
+    <None Include="vertexShaderSource_blending.GLSL">
+      <Filter>源文件\blending</Filter>
+    </None>
+    <None Include="fragmentShaderSource_blending.GLSL">
+      <Filter>源文件\blending</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
