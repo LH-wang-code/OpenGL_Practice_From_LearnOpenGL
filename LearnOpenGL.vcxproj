@@ -135,6 +135,7 @@
     <ClCompile Include="..\..\..\OpenGL\glad\src\glad.c" />
     <ClCompile Include="blending.cpp" />
     <ClCompile Include="directionlight.cpp" />
+    <ClCompile Include="faceculling.cpp" />
     <ClCompile Include="LearnAssimp.cpp" />
     <ClCompile Include="LearnColor.cpp" />
     <ClCompile Include="CoordinatePractice.cpp" />
@@ -179,6 +180,7 @@
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
     <None Include="fragmentShaderSource_depthtesting.GLSL" />
     <None Include="fragmentShaderSource_direction.GLSL" />
+    <None Include="fragmentShaderSource_faceculling.GLSL" />
     <None Include="fragmentShaderSource_Light1.GLSL" />
     <None Include="fragmentShaderSource_lightcast.GLSL" />
     <None Include="fragmentShaderSource_lightcast1.GLSL" />
@@ -205,6 +207,7 @@
     <None Include="vertexShaderSource_Coordinate1.GLSL" />
     <None Include="vertexShaderSource_depthtesting.GLSL" />
     <None Include="vertexShaderSource_direction.GLSL" />
+    <None Include="vertexShaderSource_facebulling.GLSL" />
     <None Include="vertexShaderSource_Light1.GLSL" />
     <None Include="vertexShaderSource_lightcast.GLSL" />
     <None Include="vertexShaderSource_materials.GLSL" />

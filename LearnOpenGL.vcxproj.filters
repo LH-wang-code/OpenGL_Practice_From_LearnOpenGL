@@ -31,6 +31,9 @@
     <Filter Include="源文件\blending">
       <UniqueIdentifier>{b910374f-8d39-4fce-b075-457b14a0b808}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\FaceCulling">
+      <UniqueIdentifier>{cc3aab86-6480-42cf-adc2-4e28c2b0c45c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -141,6 +144,9 @@
     <ClCompile Include="blending.cpp">
       <Filter>源文件\blending</Filter>
     </ClCompile>
+    <ClCompile Include="faceculling.cpp">
+      <Filter>源文件\FaceCulling</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -230,6 +236,10 @@
     <None Include="fragmentShaderSource_blending.GLSL">
       <Filter>源文件\blending</Filter>
     </None>
+    <None Include="vertexShaderSource_facebulling.GLSL">
+      <Filter>源文件\FaceCulling</Filter>
+    </None>
+    <None Include="fragmentShaderSource_faceculling.GLSL" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
