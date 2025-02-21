@@ -34,6 +34,9 @@
     <Filter Include="源文件\FaceCulling">
       <UniqueIdentifier>{cc3aab86-6480-42cf-adc2-4e28c2b0c45c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LearnFramebuffers">
+      <UniqueIdentifier>{3a3cc1f4-5425-4949-8ec3-912af73ffd13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -147,6 +150,9 @@
     <ClCompile Include="faceculling.cpp">
       <Filter>源文件\FaceCulling</Filter>
     </ClCompile>
+    <ClCompile Include="LearnFrameBuffers.cpp">
+      <Filter>源文件\LearnFramebuffers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -240,6 +246,18 @@
       <Filter>源文件\FaceCulling</Filter>
     </None>
     <None Include="fragmentShaderSource_faceculling.GLSL" />
+    <None Include="vertexShaderSource_framebuffers.GLSL">
+      <Filter>源文件\LearnFramebuffers</Filter>
+    </None>
+    <None Include="fragmentShaderSource_framebuffers.GLSL">
+      <Filter>源文件\LearnFramebuffers</Filter>
+    </None>
+    <None Include="vertexShaderSource_framebuffersscreen.GLSL">
+      <Filter>源文件\LearnFramebuffers</Filter>
+    </None>
+    <None Include="fragmentShaderSource_framebuffersscreen.GLSL">
+      <Filter>源文件\LearnFramebuffers</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">

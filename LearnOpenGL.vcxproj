@@ -145,6 +145,7 @@
     <ClCompile Include="LearnCamera.cpp" />
     <ClCompile Include="LearnCoordinate.cpp" />
     <ClCompile Include="LearnDepthTesting.cpp" />
+    <ClCompile Include="LearnFrameBuffers.cpp" />
     <ClCompile Include="LearnGLSL.cpp" />
     <ClCompile Include="LearnLightCast.cpp" />
     <ClCompile Include="LearnMaterials.cpp" />
@@ -181,6 +182,8 @@
     <None Include="fragmentShaderSource_depthtesting.GLSL" />
     <None Include="fragmentShaderSource_direction.GLSL" />
     <None Include="fragmentShaderSource_faceculling.GLSL" />
+    <None Include="fragmentShaderSource_framebuffers.GLSL" />
+    <None Include="fragmentShaderSource_framebuffersscreen.GLSL" />
     <None Include="fragmentShaderSource_Light1.GLSL" />
     <None Include="fragmentShaderSource_lightcast.GLSL" />
     <None Include="fragmentShaderSource_lightcast1.GLSL" />
@@ -208,6 +211,8 @@
     <None Include="vertexShaderSource_depthtesting.GLSL" />
     <None Include="vertexShaderSource_direction.GLSL" />
     <None Include="vertexShaderSource_facebulling.GLSL" />
+    <None Include="vertexShaderSource_framebuffers.GLSL" />
+    <None Include="vertexShaderSource_framebuffersscreen.GLSL" />
     <None Include="vertexShaderSource_Light1.GLSL" />
     <None Include="vertexShaderSource_lightcast.GLSL" />
     <None Include="vertexShaderSource_materials.GLSL" />
