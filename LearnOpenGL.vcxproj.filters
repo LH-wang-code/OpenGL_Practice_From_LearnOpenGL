@@ -153,6 +153,9 @@
     <ClCompile Include="LearnFrameBuffers.cpp">
       <Filter>源文件\LearnFramebuffers</Filter>
     </ClCompile>
+    <ClCompile Include="ttt.cpp">
+      <Filter>源文件\LearnFramebuffers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />

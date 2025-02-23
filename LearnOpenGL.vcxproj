@@ -164,6 +164,7 @@
     <ClCompile Include="TexturePractice3.cpp" />
     <ClCompile Include="TransformPractice1.cpp" />
     <ClCompile Include="TransformPractice2.cpp" />
+    <ClCompile Include="ttt.cpp" />
     <ClCompile Include="UseCamera.cpp" />
     <ClCompile Include="UseShader.cpp" />
     <ClCompile Include="shader.h" />
