@@ -37,6 +37,9 @@
     <Filter Include="源文件\LearnFramebuffers">
       <UniqueIdentifier>{3a3cc1f4-5425-4949-8ec3-912af73ffd13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Cubemaps">
+      <UniqueIdentifier>{e00b4604-84e3-46d9-b7d3-c6760eb8dd9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -156,6 +159,9 @@
     <ClCompile Include="ttt.cpp">
       <Filter>源文件\LearnFramebuffers</Filter>
     </ClCompile>
+    <ClCompile Include="Learncubemaps.cpp">
+      <Filter>源文件\Cubemaps</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -260,6 +266,18 @@
     </None>
     <None Include="fragmentShaderSource_framebuffersscreen.GLSL">
       <Filter>源文件\LearnFramebuffers</Filter>
+    </None>
+    <None Include="vertexShaderSource_cubemaps.GLSL">
+      <Filter>源文件\Cubemaps</Filter>
+    </None>
+    <None Include="fragmentShaderSource_cubemaps.GLSL">
+      <Filter>源文件\Cubemaps</Filter>
+    </None>
+    <None Include="vertexShaderSource_skybox.GLSL">
+      <Filter>源文件\Cubemaps</Filter>
+    </None>
+    <None Include="fragmentShaderSource_skybox.GLSL">
+      <Filter>源文件\Cubemaps</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
