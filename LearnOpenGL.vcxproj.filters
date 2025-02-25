@@ -40,6 +40,12 @@
     <Filter Include="源文件\Cubemaps">
       <UniqueIdentifier>{e00b4604-84e3-46d9-b7d3-c6760eb8dd9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AdvancedGLSL">
+      <UniqueIdentifier>{1fa01c5b-f390-4af6-bfe9-35eca48e7cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GeometryShader">
+      <UniqueIdentifier>{7ad3cac1-555e-4b21-acd0-59fb843e0ed7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -162,6 +168,15 @@
     <ClCompile Include="Learncubemaps.cpp">
       <Filter>源文件\Cubemaps</Filter>
     </ClCompile>
+    <ClCompile Include="LearnAdvancedGLSL.cpp">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="newUniform.cpp">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnGeometryShader.cpp">
+      <Filter>源文件\GeometryShader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShaderSource.GLSL" />
@@ -278,6 +293,45 @@
     </None>
     <None Include="fragmentShaderSource_skybox.GLSL">
       <Filter>源文件\Cubemaps</Filter>
+    </None>
+    <None Include="vertexShaderSource_advanvedGLSL.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="vertexShaderSource_advance1.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="fragmentShaderSource_advancedGLSL.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="vertexShaderSource_advance2.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="vertexShaderSource_advance3.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="vertexShaderSource_advance4.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="fragmentShaderSource_advanceRed.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="fragmentShaderSource_advanceGreen.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="fragmentShaderSource_advanceBlue.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="fragmentShaderSource_advanceYellow.GLSL">
+      <Filter>源文件\AdvancedGLSL</Filter>
+    </None>
+    <None Include="vertexShaderSource_geo.GLSL">
+      <Filter>源文件\GeometryShader</Filter>
+    </None>
+    <None Include="fragmentShaderSource_geo.GLSL">
+      <Filter>源文件\GeometryShader</Filter>
+    </None>
+    <None Include="geometeryShaderSource_geo.GLSL">
+      <Filter>源文件\GeometryShader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

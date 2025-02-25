@@ -136,6 +136,7 @@
     <ClCompile Include="blending.cpp" />
     <ClCompile Include="directionlight.cpp" />
     <ClCompile Include="faceculling.cpp" />
+    <ClCompile Include="LearnAdvancedGLSL.cpp" />
     <ClCompile Include="LearnAssimp.cpp" />
     <ClCompile Include="LearnColor.cpp" />
     <ClCompile Include="CoordinatePractice.cpp" />
@@ -147,6 +148,7 @@
     <ClCompile Include="Learncubemaps.cpp" />
     <ClCompile Include="LearnDepthTesting.cpp" />
     <ClCompile Include="LearnFrameBuffers.cpp" />
+    <ClCompile Include="LearnGeometryShader.cpp" />
     <ClCompile Include="LearnGLSL.cpp" />
     <ClCompile Include="LearnLightCast.cpp" />
     <ClCompile Include="LearnMaterials.cpp" />
@@ -155,6 +157,7 @@
     <ClCompile Include="LearnSunshinepicture.cpp" />
     <ClCompile Include="LearnTextures.cpp" />
     <ClCompile Include="LearnTrans.cpp" />
+    <ClCompile Include="newUniform.cpp" />
     <ClCompile Include="pointlight.cpp" />
     <ClCompile Include="reviewlight.cpp" />
     <ClCompile Include="SPtest.cpp" />
@@ -175,6 +178,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="fragmentShaderSource.GLSL" />
+    <None Include="fragmentShaderSource_advanceBlue.GLSL" />
+    <None Include="fragmentShaderSource_advancedGLSL.GLSL" />
+    <None Include="fragmentShaderSource_advanceGreen.GLSL" />
+    <None Include="fragmentShaderSource_advanceRed.GLSL" />
+    <None Include="fragmentShaderSource_advanceYellow.GLSL" />
     <None Include="fragmentShaderSource_AssimpLight.GLSL" />
     <None Include="fragmentShaderSource_blending.GLSL" />
     <None Include="fragmentShaderSource_Camera1.GLSL" />
@@ -187,6 +195,7 @@
     <None Include="fragmentShaderSource_faceculling.GLSL" />
     <None Include="fragmentShaderSource_framebuffers.GLSL" />
     <None Include="fragmentShaderSource_framebuffersscreen.GLSL" />
+    <None Include="fragmentShaderSource_geo.GLSL" />
     <None Include="fragmentShaderSource_Light1.GLSL" />
     <None Include="fragmentShaderSource_lightcast.GLSL" />
     <None Include="fragmentShaderSource_lightcast1.GLSL" />
@@ -205,7 +214,13 @@
     <None Include="fragmentShaderSource_Texture3.GLSL" />
     <None Include="fragmentShaderSource_Texture4.GLSL" />
     <None Include="fragmentShaderSource_Transform1.GLSL" />
+    <None Include="geometeryShaderSource_geo.GLSL" />
     <None Include="vertexShaderSource.GLSL" />
+    <None Include="vertexShaderSource_advance1.GLSL" />
+    <None Include="vertexShaderSource_advance2.GLSL" />
+    <None Include="vertexShaderSource_advance3.GLSL" />
+    <None Include="vertexShaderSource_advance4.GLSL" />
+    <None Include="vertexShaderSource_advanvedGLSL.GLSL" />
     <None Include="vertexShaderSource_AssimpLight.GLSL" />
     <None Include="vertexShaderSource_blending.GLSL" />
     <None Include="vertexShaderSource_Camera1.GLSL" />
@@ -218,6 +233,7 @@
     <None Include="vertexShaderSource_facebulling.GLSL" />
     <None Include="vertexShaderSource_framebuffers.GLSL" />
     <None Include="vertexShaderSource_framebuffersscreen.GLSL" />
+    <None Include="vertexShaderSource_geo.GLSL" />
     <None Include="vertexShaderSource_Light1.GLSL" />
     <None Include="vertexShaderSource_lightcast.GLSL" />
     <None Include="vertexShaderSource_materials.GLSL" />
