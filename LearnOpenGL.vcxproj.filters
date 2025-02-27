@@ -46,6 +46,15 @@
     <Filter Include="源文件\GeometryShader">
       <UniqueIdentifier>{7ad3cac1-555e-4b21-acd0-59fb843e0ed7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LearnInstancing">
+      <UniqueIdentifier>{025b1861-d009-4853-b7da-ce438c4eab7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LearnAntiAlisasing">
+      <UniqueIdentifier>{ad6ec75f-b024-404f-ab5e-f5a764bb68c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvancedLight">
+      <UniqueIdentifier>{7e9fa57e-e98d-4e1f-8a5f-81d38b165a62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -176,6 +185,21 @@
     </ClCompile>
     <ClCompile Include="LearnGeometryShader.cpp">
       <Filter>源文件\GeometryShader</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnGeoExplod.cpp">
+      <Filter>源文件\GeometryShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Learninstancing.cpp">
+      <Filter>源文件\LearnInstancing</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnPlantAndRock.cpp">
+      <Filter>源文件\LearnInstancing</Filter>
+    </ClCompile>
+    <ClCompile Include="Learnantialisasing.cpp">
+      <Filter>源文件\LearnAntiAlisasing</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnAdvancedLight.cpp">
+      <Filter>源文件\AdvancedLight</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -332,6 +356,51 @@
     </None>
     <None Include="geometeryShaderSource_geo.GLSL">
       <Filter>源文件\GeometryShader</Filter>
+    </None>
+    <None Include="vertexShaderSource_goeexplod.GLSL">
+      <Filter>源文件\GeometryShader</Filter>
+    </None>
+    <None Include="fragmentShaderSource_geoexplod.GLSL">
+      <Filter>源文件\GeometryShader</Filter>
+    </None>
+    <None Include="geometryShaderSource_geoexplod.GLSL">
+      <Filter>源文件\GeometryShader</Filter>
+    </None>
+    <None Include="vertexShaderSource_instancing.GLSL">
+      <Filter>源文件\LearnInstancing</Filter>
+    </None>
+    <None Include="fragmentShaderSource_instancing.GLSL">
+      <Filter>源文件\LearnInstancing</Filter>
+    </None>
+    <None Include="vertexShaderSource_planedandrock.GLSL">
+      <Filter>源文件\LearnInstancing</Filter>
+    </None>
+    <None Include="fragmentShaderSource_planetandrock.GLSL">
+      <Filter>源文件\LearnInstancing</Filter>
+    </None>
+    <None Include="vertexShaderSource_rock.GLSL">
+      <Filter>源文件\LearnInstancing</Filter>
+    </None>
+    <None Include="fragmentShaderSource_rock.GLSL">
+      <Filter>源文件\LearnInstancing</Filter>
+    </None>
+    <None Include="vertexShaderSource_aiti.GLSL">
+      <Filter>源文件\LearnAntiAlisasing</Filter>
+    </None>
+    <None Include="framentShaderSource_anti.GLSL">
+      <Filter>源文件\LearnAntiAlisasing</Filter>
+    </None>
+    <None Include="vertexShaderSource_antiScreen.GLSL">
+      <Filter>源文件\LearnAntiAlisasing</Filter>
+    </None>
+    <None Include="fragmentShaderSource_antiScreen.GLSL">
+      <Filter>源文件\LearnAntiAlisasing</Filter>
+    </None>
+    <None Include="vertexShaderSource_advancedlight.GLSL">
+      <Filter>源文件\AdvancedLight</Filter>
+    </None>
+    <None Include="fragmentShaderSource_advancedlight.GLSL">
+      <Filter>源文件\AdvancedLight</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
