@@ -55,6 +55,9 @@
     <Filter Include="源文件\AdvancedLight">
       <UniqueIdentifier>{7e9fa57e-e98d-4e1f-8a5f-81d38b165a62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\GammaCorrection">
+      <UniqueIdentifier>{eaeede14-f046-44d6-af8d-60d832395a25}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -200,6 +203,9 @@
     </ClCompile>
     <ClCompile Include="LearnAdvancedLight.cpp">
       <Filter>源文件\AdvancedLight</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnGammaCorrection.cpp">
+      <Filter>源文件\GammaCorrection</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -401,6 +407,12 @@
     </None>
     <None Include="fragmentShaderSource_advancedlight.GLSL">
       <Filter>源文件\AdvancedLight</Filter>
+    </None>
+    <None Include="vertexShaderSource_gamma.GLSL">
+      <Filter>源文件\GammaCorrection</Filter>
+    </None>
+    <None Include="fragmentShaderSource_gamma.GLSL">
+      <Filter>源文件\GammaCorrection</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

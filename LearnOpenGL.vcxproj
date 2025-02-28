@@ -150,6 +150,7 @@
     <ClCompile Include="Learncubemaps.cpp" />
     <ClCompile Include="LearnDepthTesting.cpp" />
     <ClCompile Include="LearnFrameBuffers.cpp" />
+    <ClCompile Include="LearnGammaCorrection.cpp" />
     <ClCompile Include="LearnGeoExplod.cpp" />
     <ClCompile Include="LearnGeometryShader.cpp" />
     <ClCompile Include="LearnGLSL.cpp" />
@@ -202,6 +203,7 @@
     <None Include="fragmentShaderSource_faceculling.GLSL" />
     <None Include="fragmentShaderSource_framebuffers.GLSL" />
     <None Include="fragmentShaderSource_framebuffersscreen.GLSL" />
+    <None Include="fragmentShaderSource_gamma.GLSL" />
     <None Include="fragmentShaderSource_geo.GLSL" />
     <None Include="fragmentShaderSource_geoexplod.GLSL" />
     <None Include="fragmentShaderSource_instancing.GLSL" />
@@ -249,6 +251,7 @@
     <None Include="vertexShaderSource_facebulling.GLSL" />
     <None Include="vertexShaderSource_framebuffers.GLSL" />
     <None Include="vertexShaderSource_framebuffersscreen.GLSL" />
+    <None Include="vertexShaderSource_gamma.GLSL" />
     <None Include="vertexShaderSource_geo.GLSL" />
     <None Include="vertexShaderSource_goeexplod.GLSL" />
     <None Include="vertexShaderSource_instancing.GLSL" />
