@@ -160,6 +160,7 @@
     <ClCompile Include="LearnMutipleLights.cpp" />
     <ClCompile Include="LearnPlantAndRock.cpp" />
     <ClCompile Include="LearnReflect.cpp" />
+    <ClCompile Include="LearnShadowMapping.cpp" />
     <ClCompile Include="LearnSunshinepicture.cpp" />
     <ClCompile Include="LearnTextures.cpp" />
     <ClCompile Include="LearnTrans.cpp" />
@@ -220,6 +221,9 @@
     <None Include="fragmentShaderSource_review.GLSL" />
     <None Include="fragmentShaderSource_reviewlight.GLSL" />
     <None Include="fragmentShaderSource_rock.GLSL" />
+    <None Include="fragmentShaderSource_shadow.GLSL" />
+    <None Include="fragmentShaderSource_shadowcheck.GLSL" />
+    <None Include="fragmentShaderSource_shadowlight.GLSL" />
     <None Include="fragmentShaderSource_shine.GLSL" />
     <None Include="fragmentShaderSource_singalColor.GLSL" />
     <None Include="fragmentShaderSource_skybox.GLSL" />
@@ -267,6 +271,9 @@
     <None Include="vertexShaderSource_review.GLSL" />
     <None Include="vertexShaderSource_reviewlight.GLSL" />
     <None Include="vertexShaderSource_rock.GLSL" />
+    <None Include="vertexShaderSource_shadow.GLSL" />
+    <None Include="vertexShaderSource_shadowcheck.GLSL" />
+    <None Include="vertexShaderSource_shadowlight.GLSL" />
     <None Include="vertexShaderSource_shine.GLSL" />
     <None Include="vertexShaderSource_singalColor.GLSL" />
     <None Include="vertexShaderSource_skybox.GLSL" />

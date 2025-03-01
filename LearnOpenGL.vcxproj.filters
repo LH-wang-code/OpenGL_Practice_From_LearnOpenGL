@@ -58,6 +58,9 @@
     <Filter Include="源文件\GammaCorrection">
       <UniqueIdentifier>{eaeede14-f046-44d6-af8d-60d832395a25}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\ShadowMapping">
+      <UniqueIdentifier>{f99a77bf-3aed-4f7f-bf16-ca74b7a7d3e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -206,6 +209,9 @@
     </ClCompile>
     <ClCompile Include="LearnGammaCorrection.cpp">
       <Filter>源文件\GammaCorrection</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnShadowMapping.cpp">
+      <Filter>源文件\ShadowMapping</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -413,6 +419,24 @@
     </None>
     <None Include="fragmentShaderSource_gamma.GLSL">
       <Filter>源文件\GammaCorrection</Filter>
+    </None>
+    <None Include="vertexShaderSource_shadowlight.GLSL">
+      <Filter>源文件\ShadowMapping</Filter>
+    </None>
+    <None Include="fragmentShaderSource_shadowlight.GLSL">
+      <Filter>源文件\ShadowMapping</Filter>
+    </None>
+    <None Include="vertexShaderSource_shadow.GLSL">
+      <Filter>源文件\ShadowMapping</Filter>
+    </None>
+    <None Include="fragmentShaderSource_shadow.GLSL">
+      <Filter>源文件\ShadowMapping</Filter>
+    </None>
+    <None Include="vertexShaderSource_shadowcheck.GLSL">
+      <Filter>源文件\ShadowMapping</Filter>
+    </None>
+    <None Include="fragmentShaderSource_shadowcheck.GLSL">
+      <Filter>源文件\ShadowMapping</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
