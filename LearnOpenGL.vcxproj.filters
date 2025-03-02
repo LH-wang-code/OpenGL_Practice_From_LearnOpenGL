@@ -67,6 +67,9 @@
     <Filter Include="源文件\ParallaxMapping">
       <UniqueIdentifier>{c2a00f2e-83fa-4963-96e1-f418c159dfe4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\HDR">
+      <UniqueIdentifier>{797434fa-67fc-4a06-93eb-e7491dd2ab6b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -224,6 +227,9 @@
     </ClCompile>
     <ClCompile Include="LearnParallaxMapping.cpp">
       <Filter>源文件\ParallaxMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnHDR.cpp">
+      <Filter>源文件\HDR</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -455,6 +461,12 @@
     </None>
     <None Include="fragmentShaderSource_normalmapping.GLSL">
       <Filter>源文件\NormalMapping</Filter>
+    </None>
+    <None Include="vertexShaderSource_dispmapping.GLSL">
+      <Filter>源文件\ParallaxMapping</Filter>
+    </None>
+    <None Include="fragmentShaderSource_dispmapping.GLSL">
+      <Filter>源文件\ParallaxMapping</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

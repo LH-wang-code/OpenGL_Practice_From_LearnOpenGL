@@ -25,7 +25,8 @@
 //
 //float deltaTime = 0.0f;
 //float lastFrame = 0.0f;
-//
+//GLboolean parallax_mapping = true;
+//GLfloat height_scale = 0.1;
 //void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 //{
 //    glViewport(0, 0, width, height);
@@ -230,7 +231,7 @@
 //
 //    glEnable(GL_DEPTH_TEST);
 //
-//    Shader shader("E:\\vstudioproject\\LearnOpenGL\\LearnOpenGL\\vertexShaderSource_normalmapping.GLSL", "E:\\vstudioproject\\LearnOpenGL\\LearnOpenGL\\fragmentShaderSource_normalmapping.GLSL");
+//    Shader shader("E:\\vstudioproject\\LearnOpenGL\\LearnOpenGL\\vertexShaderSource_dispmapping.GLSL", "E:\\vstudioproject\\LearnOpenGL\\LearnOpenGL\\fragmentShaderSource_dispmapping.GLSL");
 //
 //    unsigned int diffuseMap = loadTexture("F:/OpenGLImage/bricks2.jpg");
 //    unsigned int normalMap = loadTexture("F:/OpenGLImage/bricks2_normal.jpg");
@@ -274,12 +275,15 @@
 //
 //        shader.setVec3("lightPos", lightPos);
 //        shader.setVec3("viewPos", camera.Position);
+//        shader.setFloat("height_scale", height_scale);
+//        shader.setBool("parallax", parallax_mapping);
 //
 //        glActiveTexture(GL_TEXTURE0);
 //        glBindTexture(GL_TEXTURE_2D, diffuseMap);
 //        glActiveTexture(GL_TEXTURE1);
 //        glBindTexture(GL_TEXTURE_2D, normalMap);
-//
+//        glActiveTexture(GL_TEXTURE2);
+//        glBindTexture(GL_TEXTURE_2D, dispMap);
 //        RenderQuad();
 //
 //
