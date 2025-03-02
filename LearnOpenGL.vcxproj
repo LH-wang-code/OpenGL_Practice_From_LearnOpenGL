@@ -158,6 +158,8 @@
     <ClCompile Include="LearnLightCast.cpp" />
     <ClCompile Include="LearnMaterials.cpp" />
     <ClCompile Include="LearnMutipleLights.cpp" />
+    <ClCompile Include="LearnNormalingMaping.cpp" />
+    <ClCompile Include="LearnParallaxMapping.cpp" />
     <ClCompile Include="LearnPlantAndRock.cpp" />
     <ClCompile Include="LearnReflect.cpp" />
     <ClCompile Include="LearnShadowMapping.cpp" />
@@ -214,6 +216,7 @@
     <None Include="fragmentShaderSource_materials.GLSL" />
     <None Include="fragmentShaderSource_model.GLSL" />
     <None Include="fragmentShaderSource_MultipleLights.GLSL" />
+    <None Include="fragmentShaderSource_normalmapping.GLSL" />
     <None Include="fragmentShaderSource_planetandrock.GLSL" />
     <None Include="fragmentShaderSource_pointLight.GLSL" />
     <None Include="fragmentShaderSource_pointlightshine.GLSL" />
@@ -264,6 +267,7 @@
     <None Include="vertexShaderSource_materials.GLSL" />
     <None Include="vertexShaderSource_model.GLSL" />
     <None Include="vertexShaderSource_MultipleLights.GLSL" />
+    <None Include="vertexShaderSource_normalmapping.GLSL" />
     <None Include="vertexShaderSource_planedandrock.GLSL" />
     <None Include="vertexShaderSource_pointLight.GLSL" />
     <None Include="vertexShaderSource_pointlightshine.GLSL" />

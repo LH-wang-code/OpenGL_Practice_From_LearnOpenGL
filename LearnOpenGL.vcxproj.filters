@@ -61,6 +61,12 @@
     <Filter Include="源文件\ShadowMapping">
       <UniqueIdentifier>{f99a77bf-3aed-4f7f-bf16-ca74b7a7d3e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\NormalMapping">
+      <UniqueIdentifier>{9171b468-ba24-4378-93f3-5845c70951bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ParallaxMapping">
+      <UniqueIdentifier>{c2a00f2e-83fa-4963-96e1-f418c159dfe4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -212,6 +218,12 @@
     </ClCompile>
     <ClCompile Include="LearnShadowMapping.cpp">
       <Filter>源文件\ShadowMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnNormalingMaping.cpp">
+      <Filter>源文件\NormalMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnParallaxMapping.cpp">
+      <Filter>源文件\ParallaxMapping</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -437,6 +449,12 @@
     </None>
     <None Include="fragmentShaderSource_shadowcheck.GLSL">
       <Filter>源文件\ShadowMapping</Filter>
+    </None>
+    <None Include="vertexShaderSource_normalmapping.GLSL">
+      <Filter>源文件\NormalMapping</Filter>
+    </None>
+    <None Include="fragmentShaderSource_normalmapping.GLSL">
+      <Filter>源文件\NormalMapping</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
