@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -140,6 +140,7 @@
     <ClCompile Include="LearnAdvancedLight.cpp" />
     <ClCompile Include="Learnantialisasing.cpp" />
     <ClCompile Include="LearnAssimp.cpp" />
+    <ClCompile Include="LearnBloom.cpp" />
     <ClCompile Include="LearnColor.cpp" />
     <ClCompile Include="CoordinatePractice.cpp" />
     <ClCompile Include="GLSLPractice1.cpp" />
@@ -159,7 +160,7 @@
     <ClCompile Include="LearnLightCast.cpp" />
     <ClCompile Include="LearnMaterials.cpp" />
     <ClCompile Include="LearnMutipleLights.cpp" />
-    <ClCompile Include="LearnNormalingMaping.cpp" />
+    <ClCompile Include="LearnNormalMapping.cpp" />
     <ClCompile Include="LearnParallaxMapping.cpp" />
     <ClCompile Include="LearnPlantAndRock.cpp" />
     <ClCompile Include="LearnReflect.cpp" />
@@ -197,6 +198,9 @@
     <None Include="fragmentShaderSource_antiScreen.GLSL" />
     <None Include="fragmentShaderSource_AssimpLight.GLSL" />
     <None Include="fragmentShaderSource_blending.GLSL" />
+    <None Include="fragmentShaderSource_bloom.GLSL" />
+    <None Include="fragmentShaderSource_bloomfinal.GLSL" />
+    <None Include="fragmentShaderSource_blur.GLSL" />
     <None Include="fragmentShaderSource_Camera1.GLSL" />
     <None Include="fragmentShaderSource_color1.GLSL" />
     <None Include="fragmentShaderSource_color2.GLSL" />
@@ -211,14 +215,16 @@
     <None Include="fragmentShaderSource_gamma.GLSL" />
     <None Include="fragmentShaderSource_geo.GLSL" />
     <None Include="fragmentShaderSource_geoexplod.GLSL" />
+    <None Include="fragmentShaderSource_HDR.GLSL" />
+    <None Include="fragmentShaderSource_HDRLight.GLSL" />
     <None Include="fragmentShaderSource_instancing.GLSL" />
     <None Include="fragmentShaderSource_Light1.GLSL" />
+    <None Include="fragmentShaderSource_lightbox.GLSL" />
     <None Include="fragmentShaderSource_lightcast.GLSL" />
     <None Include="fragmentShaderSource_lightcast1.GLSL" />
     <None Include="fragmentShaderSource_materials.GLSL" />
     <None Include="fragmentShaderSource_model.GLSL" />
     <None Include="fragmentShaderSource_MultipleLights.GLSL" />
-    <None Include="fragmentShaderSource_normalmapping.GLSL" />
     <None Include="fragmentShaderSource_planetandrock.GLSL" />
     <None Include="fragmentShaderSource_pointLight.GLSL" />
     <None Include="fragmentShaderSource_pointlightshine.GLSL" />
@@ -250,6 +256,9 @@
     <None Include="vertexShaderSource_antiScreen.GLSL" />
     <None Include="vertexShaderSource_AssimpLight.GLSL" />
     <None Include="vertexShaderSource_blending.GLSL" />
+    <None Include="vertexShaderSource_bloom.GLSL" />
+    <None Include="vertexShaderSource_bloomfinal.GLSL" />
+    <None Include="vertexShaderSource_blur.GLSL" />
     <None Include="vertexShaderSource_Camera1.GLSL" />
     <None Include="vertexShaderSource_color1.GLSL" />
     <None Include="vertexShaderSource_color2.GLSL" />
@@ -264,13 +273,14 @@
     <None Include="vertexShaderSource_gamma.GLSL" />
     <None Include="vertexShaderSource_geo.GLSL" />
     <None Include="vertexShaderSource_goeexplod.GLSL" />
+    <None Include="vertexShaderSource_HDR.GLSL" />
+    <None Include="vertexShaderSource_HDRLight.GLSL" />
     <None Include="vertexShaderSource_instancing.GLSL" />
     <None Include="vertexShaderSource_Light1.GLSL" />
     <None Include="vertexShaderSource_lightcast.GLSL" />
     <None Include="vertexShaderSource_materials.GLSL" />
     <None Include="vertexShaderSource_model.GLSL" />
     <None Include="vertexShaderSource_MultipleLights.GLSL" />
-    <None Include="vertexShaderSource_normalmapping.GLSL" />
     <None Include="vertexShaderSource_planedandrock.GLSL" />
     <None Include="vertexShaderSource_pointLight.GLSL" />
     <None Include="vertexShaderSource_pointlightshine.GLSL" />

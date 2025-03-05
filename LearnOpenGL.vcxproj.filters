@@ -70,6 +70,9 @@
     <Filter Include="源文件\HDR">
       <UniqueIdentifier>{797434fa-67fc-4a06-93eb-e7491dd2ab6b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Bloom">
+      <UniqueIdentifier>{cd285953-f0d1-4b4e-809e-4f158266183b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -222,7 +225,7 @@
     <ClCompile Include="LearnShadowMapping.cpp">
       <Filter>源文件\ShadowMapping</Filter>
     </ClCompile>
-    <ClCompile Include="LearnNormalingMaping.cpp">
+    <ClCompile Include="LearnNormalMapping.cpp">
       <Filter>源文件\NormalMapping</Filter>
     </ClCompile>
     <ClCompile Include="LearnParallaxMapping.cpp">
@@ -230,6 +233,9 @@
     </ClCompile>
     <ClCompile Include="LearnHDR.cpp">
       <Filter>源文件\HDR</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnBloom.cpp">
+      <Filter>源文件\Bloom</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -456,17 +462,44 @@
     <None Include="fragmentShaderSource_shadowcheck.GLSL">
       <Filter>源文件\ShadowMapping</Filter>
     </None>
-    <None Include="vertexShaderSource_normalmapping.GLSL">
-      <Filter>源文件\NormalMapping</Filter>
-    </None>
-    <None Include="fragmentShaderSource_normalmapping.GLSL">
-      <Filter>源文件\NormalMapping</Filter>
+    <None Include="fragmentShaderSource_dispmapping.GLSL">
+      <Filter>源文件\ParallaxMapping</Filter>
     </None>
     <None Include="vertexShaderSource_dispmapping.GLSL">
       <Filter>源文件\ParallaxMapping</Filter>
     </None>
-    <None Include="fragmentShaderSource_dispmapping.GLSL">
-      <Filter>源文件\ParallaxMapping</Filter>
+    <None Include="vertexShaderSource_HDR.GLSL">
+      <Filter>源文件\HDR</Filter>
+    </None>
+    <None Include="fragmentShaderSource_HDR.GLSL">
+      <Filter>源文件\HDR</Filter>
+    </None>
+    <None Include="vertexShaderSource_HDRLight.GLSL">
+      <Filter>源文件\HDR</Filter>
+    </None>
+    <None Include="fragmentShaderSource_HDRLight.GLSL">
+      <Filter>源文件\HDR</Filter>
+    </None>
+    <None Include="vertexShaderSource_bloom.GLSL">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="fragmentShaderSource_bloom.GLSL">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="fragmentShaderSource_lightbox.GLSL">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="vertexShaderSource_blur.GLSL">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="fragmentShaderSource_blur.GLSL">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="vertexShaderSource_bloomfinal.GLSL">
+      <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="fragmentShaderSource_bloomfinal.GLSL">
+      <Filter>源文件\Bloom</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

@@ -6,6 +6,7 @@ E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnAdvancedGLSL.cpp;E:\vstudioprojec
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnAdvancedLight.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnAdvancedLight.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\Learnantialisasing.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\Learnantialisasing.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnAssimp.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnAssimp.obj
+E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnBloom.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnBloom.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnColor.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnColor.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\CoordinatePractice.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\CoordinatePractice.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\GLSLPractice1.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\GLSLPractice1.obj
@@ -20,11 +21,12 @@ E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnGammaCorrection.cpp;E:\vstudiopro
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnGeoExplod.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnGeoExplod.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnGeometryShader.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnGeometryShader.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnGLSL.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnGLSL.obj
+E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnHDR.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnHDR.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\Learninstancing.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\Learninstancing.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnLightCast.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnLightCast.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnMaterials.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnMaterials.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnMutipleLights.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnMutipleLights.obj
-E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnNormalingMaping.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnNormalingMaping.obj
+E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnNormalMapping.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnNormalMapping.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnParallaxMapping.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnParallaxMapping.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnPlantAndRock.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnPlantAndRock.obj
 E:\vstudioproject\LearnOpenGL\LearnOpenGL\LearnReflect.cpp;E:\vstudioproject\LearnOpenGL\LearnOpenGL\x64\Debug\LearnReflect.obj
