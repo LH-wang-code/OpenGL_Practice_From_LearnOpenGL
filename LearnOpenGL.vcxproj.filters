@@ -73,6 +73,9 @@
     <Filter Include="源文件\Bloom">
       <UniqueIdentifier>{cd285953-f0d1-4b4e-809e-4f158266183b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\DefferedShader">
+      <UniqueIdentifier>{1d791154-579d-456d-adfe-c83cef5f5559}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TrianglePractice1.cpp">
@@ -236,6 +239,9 @@
     </ClCompile>
     <ClCompile Include="LearnBloom.cpp">
       <Filter>源文件\Bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnDefferedShader.cpp">
+      <Filter>源文件\DefferedShader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -500,6 +506,24 @@
     </None>
     <None Include="fragmentShaderSource_bloomfinal.GLSL">
       <Filter>源文件\Bloom</Filter>
+    </None>
+    <None Include="vertexShaderSource_deffered.GLSL">
+      <Filter>源文件\DefferedShader</Filter>
+    </None>
+    <None Include="fragmentShaderSource_deffered.GLSL">
+      <Filter>源文件\DefferedShader</Filter>
+    </None>
+    <None Include="vertexShaderSource_defferedlight.GLSL">
+      <Filter>源文件\DefferedShader</Filter>
+    </None>
+    <None Include="fragmentShaderSource_defferedlight.GLSL">
+      <Filter>源文件\DefferedShader</Filter>
+    </None>
+    <None Include="vertexShaderSource_defferedbox.GLSL">
+      <Filter>源文件\DefferedShader</Filter>
+    </None>
+    <None Include="fragmentShaderSource_defferedbox.GLSL">
+      <Filter>源文件\DefferedShader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

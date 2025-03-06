@@ -149,6 +149,7 @@
     <ClCompile Include="LearnCamera.cpp" />
     <ClCompile Include="LearnCoordinate.cpp" />
     <ClCompile Include="Learncubemaps.cpp" />
+    <ClCompile Include="LearnDefferedShader.cpp" />
     <ClCompile Include="LearnDepthTesting.cpp" />
     <ClCompile Include="LearnFrameBuffers.cpp" />
     <ClCompile Include="LearnGammaCorrection.cpp" />
@@ -206,6 +207,9 @@
     <None Include="fragmentShaderSource_color2.GLSL" />
     <None Include="fragmentShaderSource_Coordinate1.GLSL" />
     <None Include="fragmentShaderSource_cubemaps.GLSL" />
+    <None Include="fragmentShaderSource_deffered.GLSL" />
+    <None Include="fragmentShaderSource_defferedbox.GLSL" />
+    <None Include="fragmentShaderSource_defferedlight.GLSL" />
     <None Include="fragmentShaderSource_depthtesting.GLSL" />
     <None Include="fragmentShaderSource_direction.GLSL" />
     <None Include="fragmentShaderSource_dispmapping.GLSL" />
@@ -264,6 +268,9 @@
     <None Include="vertexShaderSource_color2.GLSL" />
     <None Include="vertexShaderSource_Coordinate1.GLSL" />
     <None Include="vertexShaderSource_cubemaps.GLSL" />
+    <None Include="vertexShaderSource_deffered.GLSL" />
+    <None Include="vertexShaderSource_defferedbox.GLSL" />
+    <None Include="vertexShaderSource_defferedlight.GLSL" />
     <None Include="vertexShaderSource_depthtesting.GLSL" />
     <None Include="vertexShaderSource_direction.GLSL" />
     <None Include="vertexShaderSource_dispmapping.GLSL" />
